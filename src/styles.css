@@ -1,0 +1,27 @@
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+.container {
+  height: 300px;
+  padding: 20px 80px;
+}
+
+.container h1 {
+  margin: 10px 0;
+}
+
+.swipeableViews {
+  height: 300px;
+}
